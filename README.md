@@ -79,10 +79,10 @@ local themeStyles = {
     },
     ZOMBIE = {
         SchemeColor = Color3.fromRGB(154, 60, 4),
-        Background = Color3.fromRGB(27, 27, 27),
-        Header = Color3.fromRGB(27, 27, 27),
+        Background = Color3.fromRGB(40, 40, 40),
+        Header = Color3.fromRGB(40, 40, 40),
         TextColor = Color3.fromRGB(252, 254, 221),
-        ElementColor = Color3.fromRGB(252, 254, 221)
+        ElementColor = Color3.fromRGB(80, 80, 80)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
