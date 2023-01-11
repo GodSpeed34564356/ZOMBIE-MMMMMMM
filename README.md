@@ -82,7 +82,7 @@ local themeStyles = {
         Background = Color3.fromRGB(27, 27, 27),
         Header = Color3.fromRGB(27, 27, 27),
         TextColor = Color3.fromRGB(252, 254, 221),
-        ElementColor = Color3.fromRGB(154, 60, 4)
+        ElementColor = Color3.fromRGB(252, 254, 221)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
