@@ -78,11 +78,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     ZOMBIE = {
-        SchemeColor = Color3.fromRGB(154, 60, 4),
-        Background = Color3.fromRGB(40, 40, 40),
-        Header = Color3.fromRGB(40, 40, 40),
-        TextColor = Color3.fromRGB(252, 254, 221),
-        ElementColor = Color3.fromRGB(80, 80, 80)
+        FontColor = Color3.fromRGB(255, 255, 255);
+        MainColor = Color3.fromRGB(28, 28, 28);
+        BackgroundColor = Color3.fromRGB(20, 20, 20);
+        AccentColor = Color3.fromRGB(0, 85, 255);
+        OutlineColor = Color3.fromRGB(50, 50, 50);
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
