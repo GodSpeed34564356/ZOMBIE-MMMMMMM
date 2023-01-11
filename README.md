@@ -83,7 +83,6 @@ local themeStyles = {
         BackgroundColor = Color3.fromRGB(20, 20, 20);
         AccentColor = Color3.fromRGB(0, 85, 255);
         OutlineColor = Color3.fromRGB(50, 50, 50);
-        AccentColor = Color3.fromRGB(0, 85, 255);
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
@@ -190,8 +189,6 @@ function Kavo.CreateLib(kavName, themeList)
             themeList.TextColor = Color3.fromRGB(255,255,255)
         elseif themeList.ElementColor == nil then
             themeList.ElementColor = Color3.fromRGB(32, 32, 38)
-        elseif themeList.AccentColor == nil then
-            themeList.AccentColor = Color3.fromRGB()
         end
     end
 
