@@ -71,18 +71,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(224, 224, 224)
     },
     BloodTheme = {
-        SchemeColor = Color3.fromRGB(154, 60, 4),
-        Background = Color3.fromRGB(40, 40, 40),
-        Header = Color3.fromRGB(40, 40, 40),
-        TextColor = Color3.fromRGB(252, 254, 221),
-        ElementColor = Color3.fromRGB(80, 80, 80)
-    },
-    ZOMBIE = {
-        FontColor = Color3.fromRGB(255, 255, 255);
-        MainColor = Color3.fromRGB(28, 28, 28);
-        BackgroundColor = Color3.fromRGB(20, 20, 20);
-        AccentColor = Color3.fromRGB(0, 85, 255);
-        OutlineColor = Color3.fromRGB(50, 50, 50);
+        SchemeColor = Color3.fromRGB(227, 27, 27),
+        Background = Color3.fromRGB(10, 10, 10),
+        Header = Color3.fromRGB(5, 5, 5),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(20, 20, 20)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
@@ -90,6 +83,13 @@ local themeStyles = {
         Header = Color3.fromRGB(36, 28, 41),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(74, 58, 84)
+    },
+    ZOMBIE = {
+        FontColor = Color3.fromRGB(255, 255, 255);
+        MainColor = Color3.fromRGB(28, 28, 28);
+        BackgroundColor = Color3.fromRGB(20, 20, 20);
+        AccentColor = Color3.fromRGB(0, 85, 255);
+        OutlineColor = Color3.fromRGB(50, 50, 50);
     },
     Ocean = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
@@ -164,8 +164,6 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.LightTheme
     elseif themeList == "BloodTheme" then
         themeList = themeStyles.BloodTheme
-    elseif themeList == "ZOMBIE" then
-        themeList = themeStyles.ZOMBIE
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
@@ -178,6 +176,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
+    elseif themeList == "ZOMBIE" then
+        themeList = themeStyles.ZOMBIE
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
